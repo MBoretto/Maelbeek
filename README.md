@@ -1,23 +1,19 @@
 Maelbeek
 ========
 
-Inspired from a Bruxelles Station
-Maelbeek provide simple tool for 
+Simple and unuseful tool for aula informatica:
+
+##Store all the ssh keys 
+`./ssh/laboratori.sh`  
+`./ssh/macchine.sh`  
+For each machine enter y and then exit until the end of the script.  
+
+##ScanPC.sh
+Store in a file named "on" the awake machine. Param 142 is the number of machine to find.  
+`./ScanPC.sh 142`  
 
 
-ssh dir Usage: 
-execute both file to store all the key
-./laboratori.sh
-./macchine.sh
-
-For each machine enter y and then exit until the end of the script.
-
-ScanPC.sh Usage:
-./ScanPC.sh 142
-
-Store in a file named "on" the machine up. Param 142 is the number of machine up to find.
-
-bombfork.sh Usage:
-./bombfork.sh Letter Number
-Provide instant crash
+##bombfork.sh 
+`./bombfork.sh Letter Number`  
+Provide instant crash!
 
